@@ -75,7 +75,7 @@ export default class Login extends React.Component{
 				}
 			}).catch(function(error){
 				this.setState({
-					error:"Error while signing in please try again"
+					error: "Error while signing in please try again"
 				})
 			})
 
